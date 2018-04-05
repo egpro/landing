@@ -1,0 +1,124 @@
+.footer {
+  max-width: 1280px;
+  min-height: 400px;
+  background-color: #000;
+}
+
+.footer__menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__wrapper {
+  padding: 56px;
+}
+
+.footer__menu__column {
+  flex: 1;
+}
+
+.footer__menu__column > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
+.footer__menu__column:nth-child(2) > ul {
+  margin-left: 36px;
+}
+
+.footer__menu__column:nth-child(3) > ul {
+  margin-left: 60px;
+}
+
+.footer__menu__column:nth-child(4) > ul {
+  margin-left: 20px;
+  margin-top: 24px;
+}
+
+.footer__menu__column:nth-child(5) > ul {
+  margin-left: 34px;
+}
+
+.footer__about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 56px 0 28px;
+}
+
+.footer__about__text {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__about__text > .text:last-child {
+  padding-top: 20px;
+}
+
+.footer__about__logos {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__about__logos__row {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.footer__about__logos__row:first-child .footer__about__logos__row__item:last-child {
+  margin-left: 40px;
+}
+
+.footer__about__logos__row__item {
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .footer {
+        min-height: auto;
+    }
+
+  .footer__menu > .footer__menu__column > ul > li:not(:first-child),
+  .footer__menu > .footer__menu__column:nth-child(4),
+  .footer__about__logos,
+  .separator {
+    display: none;
+  }
+
+  .footer__menu > .footer__menu__column > ul > li:first-child {
+    font-family: Circe;
+  }
+
+  .footer__wrapper,
+  .footer__about {
+    padding: 0;
+  }
+
+  .footer__menu {
+
+      padding: 0 24px;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+
+  .footer__about {
+    border-top: 1px solid white;
+  }
+
+  .footer__about__text {
+      padding: 56px;
+    text-align: center;
+  }
+
+  .footer__menu__column > ul {
+    margin-left: 0 !important;
+  }
+}

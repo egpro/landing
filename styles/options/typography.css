@@ -1,0 +1,131 @@
+/* Typography */
+.select,
+.link,
+.select__text,
+.description,
+.payload__text,
+.payload__agreement__text,
+.footer__menu__column > ul > li {
+  font-family: "Circe";
+}
+
+.select,
+.link,
+.select__text,
+.description {
+  font-size: 11px;
+  line-height: 146%;
+}
+
+.select,
+.main {
+  color: #fff;
+}
+
+.select,
+.link {
+  text-transform: uppercase;
+}
+
+.link {
+  margin-left: 20px;
+  color: #ffcf00;
+}
+
+.main,
+.sub_main,
+.short-description.large {
+  font-family: "Circe-ExtraLight";
+}
+
+.main {
+  font-size: 66px;
+  line-height: 110%;
+}
+
+.sub_main {
+  font-size: 30px;
+  color: #9b9b9b;
+  line-height: 134%;
+}
+
+.select__text,
+.description,
+.short-description,
+.payload__agreement__text {
+  color: #000;
+}
+
+.select__text {
+  text-transform: uppercase;
+}
+
+.inputs {
+  font-family: Circe-Bold;
+}
+
+.inputs::-webkit-input-placeholder {
+  text-align: left;
+}
+
+inputs::-moz-placeholder {
+  text-align: left;
+}
+
+inputs:-ms-input-placeholder {
+  text-align: left;
+}
+
+.description,
+.payload__text {
+  font-size: 40px;
+  line-height: 120%;
+}
+
+.short-description {
+  font-family: Circe-Bold;
+  font-size: 20px;
+  line-height: 160%;
+  text-align: center;
+}
+
+.short-description {
+  flex: 1;
+}
+
+.payload__agreement__text,
+a {
+  font-size: 14px;
+  line-height: 143%;
+}
+
+.footer__menu__column > ul > li > a {
+  font-family: Circe-Light;
+  font-size: 16px;
+  line-height: 150%;
+  color: #9b9b9b;
+  text-decoration: underline;
+}
+
+.footer__menu__column > ul > li:first-child > a {
+  color: #fff;
+}
+
+.footer__menu__column:nth-child(4) > ul > li > a {
+  color: #9b9b9b;
+}
+
+.footer__menu__column:last-child > ul > li > a {
+  color: #fff;
+}
+
+.footer__about__text .text {
+  font-family: ArialMT;
+  font-size: 11px;
+  color: #616161;
+  line-height: 146%;
+}
+
+.flex {
+  display: flex;
+}

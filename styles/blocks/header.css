@@ -1,0 +1,100 @@
+/* Header */
+.header {
+  max-width: 1280px;
+  height: 640px;
+  display: flex;
+  background: url(../../images/back_null_percents.jpg) 80% center;
+  position: relative;
+}
+
+.header__content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.header__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.header__logo {
+  position: absolute;
+  top: 48px;
+}
+
+.header__lang {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  padding-top: 61px;
+}
+
+.header__lang .select {
+  display: flex;
+  cursor: pointer;
+}
+
+.header__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex: 1;
+  margin-top: 25px;
+}
+
+.header__select {
+  width: 304px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  background-color: #ffcf00;
+}
+
+.header__options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.header__select {
+  cursor: pointer;
+}
+
+.header__select__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding: 20px;
+}
+
+/*MEDIA*/
+
+@media only screen and (max-width: 1024px) {
+  .header__content.wrapper {
+    padding: 0 24px;
+  }
+
+  .header__logo {
+    top: 24px;
+  }
+
+  .header__lang {
+    display: none;
+  }
+
+  .main {
+    font-size: 40px;
+    line-height: 120%;
+  }
+
+  .sub_main {
+    font-size: 24px;
+    color: #d2d2d2;
+  }
+}

@@ -1,0 +1,78 @@
+/* Options*/
+
+.auto-centering {
+  margin: auto;
+}
+
+.wrapper {
+  padding: 0 56px 0;
+}
+
+.vertical {
+  width: 100%;
+  transform: rotate(-180deg);
+  writing-mode: tb-rl;
+}
+
+.push-left {
+  flex: 3;
+}
+
+.push-right {
+  flex: 4;
+  padding-right: 56px;
+}
+
+.large {
+  font-size: 10rem;
+}
+
+.start {
+  padding-left: 56px;
+}
+
+.inputs {
+  width: 328px;
+  height: 72px;
+  padding: 0 20px;
+  text-align: left;
+  color: #000;
+  border: #dedede;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.12);
+}
+
+.inputs,
+.inputs + .header__select {
+  margin: 0 8px;
+}
+
+.separator {
+  width: 100%;
+  height: 1px;
+  border: 1px rgba(151, 151, 151, 0.3);
+}
+
+.arrow {
+  width: 24px;
+  height: 24px;
+  background-image: url("../../images/Arrow Copy 2.png");
+}
+
+.arrow.left {
+  transform: scaleX(-1);
+}
+
+.arrow.down {
+  transform: rotate(-90deg);
+}
+
+.arrow.down:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  background: transparent url("../../images/Arrow Copy 2.png");
+  filter: invert(80%);
+  -webkit-filter: invert(80%);
+}

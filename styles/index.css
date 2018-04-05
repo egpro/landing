@@ -1,0 +1,11 @@
+@import "options/resetStyles.css";
+@import "options/fonts.css";
+@import "options/typography.css";
+
+@import "blocks/header.css";
+@import "blocks/yellowBlock.css";
+@import "blocks/payloadBlock.css";
+@import "blocks/socialBlock.css";
+@import "blocks/footer.css";
+
+@import "elements/elements.css";
